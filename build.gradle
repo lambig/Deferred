@@ -6,7 +6,7 @@ plugins {
 
 group = 'io.github.lambig'
 archivesBaseName = 'Deferred'
-version = '0.8.0'
+version = '1.0.0'
 
 sourceCompatibility = 1.8
 
@@ -17,6 +17,8 @@ repositories {
 dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.12'
     annotationProcessor 'org.projectlombok:lombok:1.18.12'
+
+    implementation 'io.github.lambig:Patterns:1.1.0'
 
     testCompileOnly 'org.projectlombok:lombok:1.18.12'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
