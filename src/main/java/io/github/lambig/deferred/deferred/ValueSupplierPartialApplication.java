@@ -5,7 +5,7 @@ import java.util.function.Supplier;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-class ValueSupplierPartialApplication<X> {
+public class ValueSupplierPartialApplication<X> {
   private final Supplier<X> valueSupplier;
 
   public <E extends Exceptions> Deferred<X, E> possiblyThrow(E exceptions) {
