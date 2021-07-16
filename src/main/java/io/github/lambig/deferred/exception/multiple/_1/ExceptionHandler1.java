@@ -11,7 +11,7 @@ import io.github.lambig.deferred.exception.UnexpectedExceptionThrownException;
 import io.github.lambig.deferred.exception.multiple.ExceptionsHandler;
 import java.util.function.Function;
 
-public class ExceptionHandler1<A extends Exception, B extends Exception, E extends Exception1<A>, V> implements ExceptionsHandler<E, V> {
+public class ExceptionHandler1<A extends Exception, E extends Exception1<A>, V> implements ExceptionsHandler<E, V> {
 
   private final Function<Exception, V> handler;
 

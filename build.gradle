@@ -6,7 +6,7 @@ plugins {
 
 group = 'io.github.lambig'
 archivesBaseName = 'Deferred'
-version = '1.0.0'
+version = '1.0.2'
 
 sourceCompatibility = 1.8
 
@@ -19,7 +19,6 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.12'
 
     implementation 'io.github.lambig:Patterns:1.1.0'
-
     testCompileOnly 'org.projectlombok:lombok:1.18.12'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
     testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.2'
